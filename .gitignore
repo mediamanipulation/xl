@@ -1,0 +1,38 @@
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+
+# Build artifacts
+build/
+dist/
+*.spec
+*.zip
+*.exe
+*.toc
+*.pkg
+*.pyz
+
+# Excel & logs
+*.xlsx
+*.xls
+*.log
+*.tmp
+*.bak
+
+# VSCode & PyCharm
+.vscode/
+.idea/
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# Security
+key.key
+app_settings.json
+
+# PyInstaller garbage
+*.cpython-*
+*.pyd
+*.dll

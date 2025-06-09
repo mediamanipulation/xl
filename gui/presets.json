@@ -1,0 +1,18 @@
+{
+    "Payroll Export": {
+      "columns": ["EmployeeID", "Salary", "Bonus", "Tax"],
+      "formulas": {
+        "Tax": "Salary * 0.25"
+      }
+    },
+    "HR Summary": {
+      "columns": ["Full Name", "Date of Birth", "Location"]
+    },
+    "Remote Workers": {
+      "columns": ["EmployeeID", "Full Name", "Location", "Remote Eligible"],
+      "formulas": {
+        "Location": "'Remote' if Location == 'Remote' else 'Office'"
+      }
+    }
+  }
+  
