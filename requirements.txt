@@ -67,7 +67,7 @@ prompt-toolkit
 psutil
 pyarrow
 pyarrow-hotfix
-pyautogen
+ag2
 pycparser
 pyinstaller
 pyinstaller-hooks-contrib
